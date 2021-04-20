@@ -20,9 +20,15 @@ const Proyects = () => {
                     </Link>
                     <div className="project-item__hero">
                         <h3>{proyect.title}</h3>
-                        <a href={proyect.url} target="_blank" rel="noreferrer">
-                            <button className="main-btn">Go</button>
-                        </a>
+                        {proyect.url.length > 0 ?
+                            <a href={proyect.url} target="_blank" rel="noreferrer">
+                                <button className="main-btn">Go</button>
+                            </a>
+                        :
+                        <Link to={"/proyecto/"+i} >
+                            <button className="main-btn">View</button>
+                        </Link>
+                        }
                     </div>
                 </div>
             ))}

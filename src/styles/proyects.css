@@ -65,3 +65,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width:769px){
+    .proyect-hero h1{
+        margin-right: 30px;
+    }
+}

@@ -24,7 +24,12 @@ const Proyect = () => {
         <div>
             <div className="proyect-hero">
                 <h1>{currentProyect.title}</h1>
-                <a href={currentProyect.url}><button className="main-btn">Go!</button></a>
+                {currentProyect.url.length > 0 ?
+                    <a href={currentProyect.url}><button className="main-btn">Go!</button></a>
+                    :
+                    <p>Por el momento este proyecto no esta hosteado</p>
+                }
+                
             </div>
             <p>{currentProyect.description}</p>
             <video className="proyect-image" src={videos[proyect]} autoPlay muted/>
