@@ -11,6 +11,12 @@
 # production
 /build
 
+#media
+/src/images
+/src/videos
+
+Irving-Vega-Rivas.pdf
+
 # misc
 .DS_Store
 .env.local

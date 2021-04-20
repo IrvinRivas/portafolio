@@ -1,0 +1,51 @@
+.footer-img{
+    height: 50px;
+    margin: 10px 20px;
+    background-color: white;
+}
+
+.footer-linkedin{
+    border-radius: 6px;
+}
+
+.footer-github{
+    border-radius: 50%;
+}
+
+footer form{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px 0;
+}
+
+footer form img{
+    height: 20px;
+    margin: 0;
+    position: relative;
+    left: 190px;
+    bottom: 1px;
+    width: 20px;
+}
+
+.footer-form__group{
+    display: block;
+}
+
+.footer-input{
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    height:30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+.footer-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+}

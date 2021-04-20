@@ -1,0 +1,34 @@
+@import url('./vars.css');
+
+.hero-title{
+    font-size: 1.5em;
+}
+
+.knowledge{
+    display: flex;
+}
+
+.knowledge-item{
+    margin: 0 10px;
+}
+
+.main-cv__container{
+    align-items: center;
+    border: 1px solid white; 
+    border-radius: 5px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.main-cv{
+    height: 100%;
+    width: 100%;
+}
+
+.main-cv__img{
+    height: 30px;
+    margin: 0 20px; 
+}

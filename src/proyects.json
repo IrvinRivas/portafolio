@@ -1,0 +1,33 @@
+[
+    {
+    "title": "fancy cloth",
+    "description": "Este es un e-commerce desarrollado con React y redux en el frontend y una api desarrollada en node js y express con una base de datos sql, integra la api de Paypal para los pagos y tiene un panel de administrador para administrar los productos, inventario, las ordernes y una analitica de ventas",
+    "url": "https://fancy-cloth.herokuapp.com/"
+    },
+    {
+        "title": "Platzi conf merch",
+        "description": "Este Proyecto es un pequeño e-commerce desarrolado con react usando solamente los hooks, integrando las apis de PayPal y google maps con un backend en strapi",
+        "image": "../images/platzi-conf.jpg",
+        "url": "https://platzi-store-merch-27dda.firebaseapp.com/"
+    },
+    {
+        "title": "Rick and Morty mini wiki",
+        "description": "Un pequeño proyecto con React hooks",
+        "image": "../images/mini-wiki.jpg",
+        "url": "https://rick-and-morky-wiky.herokuapp.com/"
+    },
+    {
+        "title": "Crypchat",
+        "description": "Este es un pequeño blog/redsocial desarrollado con react y redux con node y express con una base de datos mysql, este es el primer proyecto que desarrolle con estas tecnologias y esta llecho con componentes de clases de react",
+        "image": "../images/crypchat",
+        "url": ""
+    },
+    {
+        "title": "Free reader",
+        "description": "Esta es una app para poder ver y descargar libros gratis, esta desarrollada utilizando la api publica de open libra y react js",
+        "image": "../images/crypchat",
+        "url": "https://free-reader-web.web.app"
+    }
+    
+    
+]
